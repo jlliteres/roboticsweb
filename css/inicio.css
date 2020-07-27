@@ -1,0 +1,49 @@
+section{
+	margin-top: 85px;
+	text-align: center;
+}
+
+section div:not(.sidenav){
+	margin-top: 10%;
+	float: right;
+	width: 25%;
+	min-width: 260px;
+	padding: 20px;
+}
+section .logo{
+	position: fixed;
+	bottom: 10%;
+	right: 0;
+	font-size: 1.5em;
+}
+section .logo img{
+	height:20%;
+	width: 20%;
+	margin-left: 20px;
+}
+section  p{	
+	background-color: rgba(62,128,169,0.8);
+	text-align: left;
+	padding: 10px;
+	line-height: 2;
+	box-sizing: border-box;
+}
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+
+section h1{
+	font-family: Broadway, Impact, serif;
+	font-size: 3vw;
+	margin: auto;
+	color: #032859;
+	background-color: rgba(62,128,169,0.8);
+}
+
+@media screen and (max-height: 900px) {
+	section .logo{
+		display: none;
+	}	
+}

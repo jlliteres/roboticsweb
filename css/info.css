@@ -1,0 +1,36 @@
+.title{
+	width: 100%;
+	min-height: 500px;
+	align-items: center;
+	margin:40px 0 auto 0;
+	background:black url('../img/about.jpg') no-repeat right;
+}
+.title  h1{
+	float:left;
+	color: white;
+	padding:50px;
+	margin-left: 10%;
+	font-size: 2em; 
+	min-width: 350px;
+}
+section{
+	display: inline-flex;
+	width: 45%;
+	min-width: 780px;
+	height: 100%;
+	padding: 30px;
+	text-align: justify;
+}
+section p{	
+	width: 50%;
+	margin:auto;
+	line-height: 2;
+}
+.map{
+	border-left: 3px solid #032859;
+}
+.map img{
+	height:90%; 
+	width:90%;
+	border: 1px solid #032859;
+}

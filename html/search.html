@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Search</title>	
+	<link rel="icon" type="image/ico" href="../img/logo.ico" />
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="../css/items.css">
+	<link rel="stylesheet" type="text/css" href="../css/search.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+	<header>		
+		<div class="topnav">
+			<div class="fake">
+				<i class="fas fa-home"></i>				
+				<i class="fas fa-robot"></i>
+				<i class="fas fa-at"></i>
+				<i class="fas fa-info-circle"></i>
+				<i class="fas fa-search"></i>
+				<i class="fas fa-user"></i> 
+				<i class="fas fa-shopping-cart"></i>
+			</div>	
+			<div class="menu">							
+				<a href="../index.html"><i class="fas fa-home"></i>  HOME</a>
+				<a href="items.html"><i class="fas fa-robot"></i>  ITEMS</a>
+				<a href="contact.html"><i class="fas fa-at"></i>  CONTACT</a>
+				<a href="info.html"><i class="fas fa-info-circle"></i>  ABOUT US</a>
+				<form method="POST" action="search.html">
+					<input type="search" name="search" placeholder="Search..."><i class="fas fa-search"></i>
+				</form>
+				<a href="login.html"><i class="fas fa-user"></i>  LOGIN</a>
+				<a href="cart.html"><i class="fas fa-shopping-cart"></i>   MY CART</a>
+			</div>
+		</div>
+	</header>
+	<div class="title">
+		<h1>Is this what you were looking for?</h1>
+	</div>
+	<content>
+		<section>
+			<div class="sidenav">
+				<a href="../index.html"><i class="fas fa-home"></i></a>
+				<a href="items.html"><i class="fas fa-robot"></i></a>
+				<a href="contact.html"><i class="fas fa-at"></i></a>
+				<a href="info.html"><i class="fas fa-info-circle"></i></a>
+				<a href="search.html"><i class="fas fa-search"></i></a>
+				<a href="login.html"><i class="fas fa-user"></i> </a>
+				<a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+			</div>			
+			<div><img src="../img/robotic-arm.jpg"><h3>R2-D3 arm</h3><span>405.99$</span> <input type="number" name="quantity" min="1" max="5"><input type="button" name="addCart" value=" + "></div>
+			<div><img src="../img/robotic-arm2.jpg"><h3>R2-D5 arm</h3><span>500.00$</span> <input type="number" name="quantity" min="1" max="5"><input type="button" name="addCart" value=" + "></div>
+			
+			
+			<div><img src="../img/robotic-head3.jpg"><h3>R2-D5 head</h3><span>749.29$</span> <input type="number" name="quantity" min="1" max="5"><input type="button" name="addCart" value=" + "></div>
+			<div><img src="../img/robotic-head4.jpg"><h3>MR2-95 head</h3><span>850.10$</span> <input type="number" name="quantity" min="1" max="5"><input type="button" name="addCart" value=" + "></div>			
+			
+			<div><img src="../img/robotic-body3.jpg"><h3>BVC-08 full body</h3><span>8000.55$</span> <input type="number" name="quantity" min="1" max="5"><input type="button" name="addCart" value=" + "></div>
+			<div><img src="../img/robotic-body4.png"><h3>GRVS-08 full body</h3><span>15000.00$</span> <input type="number" name="quantity" min="1" max="5"><input type="button" name="addCart" value=" + "></div>
+			
+			<div><img src="../img/robotic-legs3.jpg"><h3>JK2-LR legs</h3><span>700.30$</span> <input type="number" name="quantity" min="1" max="5"><input type="button" name="addCart" value=" + "></div>	
+			<div><img src="../img/robotic-legs4.jpg"><h3>JGR-2R legs</h3><span>849.99$</span> <input type="number" name="quantity" min="1" max="5"><input type="button" name="addCart" value=" + "></div>	
+			<aside>
+				<h4>Shop Menu</h4>
+				<h5>Heads</h5>
+				<a href="#">D3-R3</a>
+				<a href="#">X2-BJ5</a>
+				<a href="#">R2-D5</a>
+				<a href="#">MR2-95</a>
+				<h5>Arms</h5>
+				<a href="#">R2-D3</a>
+				<a href="#">R2-D5</a>
+				<a href="#">X3-D8</a>
+				<a href="#">F4-Z2</a>
+				<h5>Legs</h5>
+				<a href="#">R2-D5</a>
+				<a href="#">GL-CR3</a>
+				<a href="#">JK2-LR</a>
+				<a href="#">JGR-2R</a>
+				<h5>Bodys</h5>
+				<a href="#">XY-H7</a>
+				<a href="#">XY-H8</a>
+				<a href="#">BVC-08</a>
+				<a href="#">GRVS-08</a>
+			</aside>	
+		</section>
+	</content>
+
+	<footer>
+	  <a href="#">Conditions of Use</a> 
+	  <a href="#">Privacy Notice</a> 
+	  <a href="#">© 1992-2019, JLP Robotics, Inc. or its affiliates</a>
+	</footer>	
+</body>
+</html>

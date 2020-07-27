@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Contact us</title>	
+	<link rel="icon" type="image/ico" href="../img/logo.ico" />
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="../css/contact.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+	<header>		
+		<div class="topnav">
+			<div class="fake">
+				<i class="fas fa-home"></i>				
+				<i class="fas fa-robot"></i>
+				<i class="fas fa-at"></i>
+				<i class="fas fa-info-circle"></i>
+				<i class="fas fa-search"></i>
+				<i class="fas fa-user"></i> 
+				<i class="fas fa-shopping-cart"></i>
+			</div>	
+			<div class="menu">							
+				<a href="../index.html"><i class="fas fa-home"></i>  HOME</a>
+				<a href="items.html"><i class="fas fa-robot"></i>  ITEMS</a>
+				<a href="contact.html"><i class="fas fa-at"></i>  CONTACT</a>
+				<a href="info.html"><i class="fas fa-info-circle"></i>  ABOUT US</a>
+				<form method="POST" action="search.html">
+					<input type="search" name="search" placeholder="Search..."><i class="fas fa-search"></i>
+				</form>
+				<a href="login.html"><i class="fas fa-user"></i>  LOGIN</a>
+				<a href="cart.html"><i class="fas fa-shopping-cart"></i>   MY CART</a>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="sidenav">
+				<a href="../index.html"><i class="fas fa-home"></i></a>
+				<a href="items.html"><i class="fas fa-robot"></i></a>
+				<a href="contact.html"><i class="fas fa-at"></i></a>
+				<a href="info.html"><i class="fas fa-info-circle"></i></a>
+				<a href="search.html"><i class="fas fa-search"></i></a>
+				<a href="login.html"><i class="fas fa-user"></i> </a>
+				<a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+			</div>
+		<div>			
+			<form method="POST" action="../index.html" onsubmit="alert('Message sended! Expect our answer in 24/48 hours')">
+				    <h2>Have any questions?</h2>
+				    <label for="name"><b>Name *</b></label>
+				    <input type="text" placeholder="Enter Name" name="name" required>
+				    <label for="lname"><b>Last Name *</b></label>
+				    <input type="text" placeholder="Enter Last Name" name="lname" required>
+				    <label for="mail"><b>Mail *</b></label>
+				    <input type="email" name="mail" placeholder="Enter e-mail" required>
+				    <label for="subject"><b>Subject</b></label>
+				    <textarea name="subject" placeholder="Ask us anything!" required></textarea>         
+				    <input type="submit" class="submit" value="Send">
+				    <span style="float:left;margin-left: 3%;"><b>* are required fields</b></span> 
+				    <span><input type="checkbox" checked>By using this service you agree to our <a href="#">Terms and Conditions</a></span>    
+    		</form>	
+		</div>
+	</section>
+	<footer>
+	  <a href="#">Conditions of Use</a> 
+	  <a href="#">Privacy Notice</a> 
+	  <a href="#">© 1992-2019, JLP Robotics, Inc. or its affiliates</a>
+	</footer>	
+</body>
+</html>

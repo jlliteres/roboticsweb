@@ -1,0 +1,64 @@
+.title{
+	width: 100%;
+	min-height: 200px;
+	align-items: center;
+	margin:40px 0 auto 0;
+	background:black url('../img/cart.jpg') no-repeat center;
+}
+.title  h1{
+	float:left;
+	color: white;
+	padding:50px;
+	margin-left: 10%;
+	font-size: 2em; 
+	min-width: 350px;
+}
+content{
+	margin-top: 90px;
+}
+section{
+	margin-top: 90px;
+}
+section table{
+	margin: auto;
+	width: 70%;
+	border-collapse: collapse;
+}
+table td{
+	padding: 10px;
+	border-top: 1px solid #626269;
+}
+table .first{
+	border-left: 1px solid #626269;
+	text-align: center;
+	width: 20%;
+}
+table .last{
+	border-right: 1px solid #626269;
+	width: 10%;
+}
+table .third{
+	width: 20%;
+}
+table img{
+	height: 70px;
+}
+table input[type=number], input[type=button]{
+	width: 40px;
+}
+table input[type=submit]{
+	font-size: 1.2em;
+	background-color: #2e93d2;
+	text-align: center;
+	color: #ebebf6;
+	padding: 7px;
+	border-radius: 12px;
+}
+.quantity{
+	margin-right:10px;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}

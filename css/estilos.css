@@ -1,0 +1,142 @@
+html{
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+body{
+	min-height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	margin:0;
+	background-color: #ebebf6;
+}
+
+header{
+	width: 100%;
+	height: 50px;	
+	position: sticky;
+	top:0;
+	left:0;
+}
+header:hover .topnav{
+	height: 90px;
+}
+header:hover .fake{
+	opacity: 0;
+}
+header:hover .menu{
+	opacity: 1;
+}
+.topnav{
+	height: 100%;
+	width: 100%;
+	background-color: #032859;
+	z-index: 1;
+	padding-left: 28%;
+	overflow: hidden;
+	transition: height 1s;
+}
+.fake{
+	margin-left: 10%;
+	transition: all 1s;
+}
+.menu{
+	opacity: 0;
+	transition: all 1s;
+}
+.fake i{
+	padding: 20px 20px 10px 20px;
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #ebebf6;
+
+}
+.topnav a{	
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #ebebf6;
+}
+.topnav a:hover{
+	background-color: #3e80a9;
+}
+.topnav a:active{
+	background-color: #626269;
+}
+
+.topnav form{
+	display: inline;
+	font-size: 1.2em;
+	color: #ebebf6;
+	text-align: center;
+}
+.topnav input[type=search]{
+	color: #032859;
+	font-size: 1em;
+	width: 20px;
+	border: 2px solid #ebebf6;
+  	border-radius: 12px;
+  	background-color: #032859;
+  	margin: 0 8px 0 8px;
+  	transition: all 1s;
+}
+.topnav input[type=search]:hover{
+	width:100px;
+	color: #ebebf6;
+}
+.topnav input[type=search]:focus{
+	width:100px;
+	color: #ebebf6;
+}
+.sidenav{
+	text-align: center;
+	display: none;
+	position: fixed;
+	left:0;
+	top: 40%;
+	height: 35%;
+	min-height: 350px;
+	width: 80px;
+	background-color: #032859;
+	z-index: 1;
+}
+.sidenav a{	
+	display: inline-block;	
+	width: 100%;
+	margin:10px 0 10px 0;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #ebebf6;
+}
+.sidenav a:hover{
+	width: 100px;
+}
+footer{
+	width: 100%;
+	min-width: 700px;
+	text-align: center;
+	background-color: #032859;
+	padding: 20px;
+}
+footer a{
+	text-decoration: none;
+	color: #ebebf6;
+	font-size: 0.8em;
+	margin: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  header .topnav{
+  	display: none;
+  }
+  section .sidenav{
+    display: inline-block;
+  }
+  section h1{
+  	font-size: 2em;
+  }
+}
+@media screen and (max-width: 382px) {
+	section .sidenav{
+    display: none;
+  }
+}

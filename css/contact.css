@@ -1,0 +1,61 @@
+body{
+	background: #ebebf6 url(../img/contact2.jpg) no-repeat center center; 
+	background-size: cover;	
+}
+section{
+  margin: 40px 0 0 35%;
+}
+section div form{
+  width: 40%;
+  min-width: 550px;
+  background-color: rgba(62,128,169,0.2);
+}
+
+form h2{
+  text-align: center;
+  background-color: #032859;
+  color:#ebebf6;
+  padding: 10px 0px 10px 0px;
+  
+}
+input[type=text], input[type=email], textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #3e80a9;
+  border-radius: 20px;
+  box-sizing: border-box;
+  resize: vertical;
+  max-height: 300px;
+}
+
+form .submit {
+  font-size: 1.2em;
+  background-color: #2e93d2;
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: #ebebf6;
+  padding: 7px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+.submit:hover{
+  opacity: 0.7;
+}
+form label{
+  margin-left: 3%;
+}
+
+form span{
+  float:right;
+  margin-right: 3%; 
+  font-size: 0.8em; 
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}

@@ -1,0 +1,11 @@
+.title{
+	background:black url('../img/robotics.png') no-repeat right;
+}
+
+section{
+ 	grid-template-columns: auto auto auto  200px;
+}
+aside{	
+	grid-column: 4;
+	grid-row: 1 / 4;
+}
